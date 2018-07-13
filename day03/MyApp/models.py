@@ -26,6 +26,8 @@ class Hero(models.Model):
     h_gender = models.IntegerField(choices=((1, '男'), (2, '女'),), verbose_name='性别')
     h_birthday = models.DateTimeField(verbose_name='出生日期')
 
+    
+
     def __str__(self):
         return self.h_name
 

@@ -1,22 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal">
-    <data-source name="db.sqlite3" uuid="dbc39ebd-02b7-417e-bd9e-3ee8e28e88df">
-      <database-info product="SQLite" version="3.20.1" jdbc-version="2.1" driver-name="SQLite JDBC" driver-version="3.20.1.1" />
-      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+    <data-source name="db_django@localhost" uuid="7a982248-f4d5-43e9-bf54-3bbd8def3390">
+      <database-info product="MySQL" version="5.7.16" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.46 ( Revision: 9cc87a48e75c2d2e87c1a293b2862ce651cb256e )">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="upper" />
       <secret-storage>master_key</secret-storage>
-      <auth-required>false</auth-required>
-      <introspection-schemas>*:main</introspection-schemas>
+      <user-name>root</user-name>
+      <introspection-schemas>*:db_django</introspection-schemas>
     </data-source>
-    <data-source name="db" uuid="f1d138a7-b0ab-45c9-9865-7dee5711d4d2">
-      <database-info product="SQLite" version="3.20.1" jdbc-version="2.1" driver-name="SQLite JDBC" driver-version="3.20.1.1" />
-      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
-      <introspection-schemas>*:main</introspection-schemas>
-    </data-source>
-    <data-source name="db [2]" uuid="35f3d8c1-dec4-4471-b080-5499bc53f7c4">
-      <database-info product="SQLite" version="3.20.1" jdbc-version="2.1" driver-name="SQLite JDBC" driver-version="3.20.1.1" />
-      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
-      <introspection-schemas>*:main</introspection-schemas>
+    <data-source name="day04" uuid="aa59a9b2-6924-45ff-9a91-1e721e9079e0">
+      <database-info product="MySQL" version="5.7.16" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.46 ( Revision: 9cc87a48e75c2d2e87c1a293b2862ce651cb256e )">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="upper" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <introspection-schemas>*:day04</introspection-schemas>
     </data-source>
   </component>
 </project>
